@@ -62,20 +62,65 @@ ul li a{
     font-size: 22px;
 }
 
-section{
-    padding: 2rem;
+
+
+
+.emp-info{
+    background: rgba(65, 150, 110, 0.5);
+    width: 90%;
+    margin: 1rem auto;
+    padding: 1rem;
+    overflow: scroll;
 }
-section h2{
-    color: rgb(165, 137, 137);
+.emp-info :is(h1, p){
+    color: white;
+    text-align: center;
+    
+}
+.emp-info p{
+    margin-top: 1rem;
+    
+}
+.emp-info button{
+    padding: .3rem .8rem;
+    background: rgb(78, 173, 211);
+    border: none;
+    outline: none;
+    box-shadow:  0 0 3px black;
+}
+table{
+    min-width: 40em;
+    height: auto;
+    margin: 1rem auto;
+    border-collapse: collapse;
+    /* border: 1px solid red; */
+    background: white;
+    border: 2px solid black;
+}
+table caption{
+    color: #fff;
+    text-decoration: underline;
+}
+
+thead th{
+    color: white;
+    border: 2px solid rgb(31, 14, 70);
+    background: rgb(165, 137, 137);
+    padding: 5px 10px;
+}
+tbody td{
     font-family: var(--font-family1);
-    font-size: 33px;
-    text-decoration: 1px solid underline;
+    text-align: center;
+    padding: .5rem;
+    border: 1px solid red;
 }
+
+
 
 
 footer{
     text-align: center;
     background: rgb(165, 137, 137);
     color: white;
-    padding: 1rem;
+    padding: 2rem;
 }
